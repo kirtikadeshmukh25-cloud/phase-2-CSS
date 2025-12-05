@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Courses</title>
+<style>
+
+body {
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    background: linear-gradient(black,pink,blue);
+    color: #222;
+}
+
+header {
+    text-align: center;
+    padding: 25px;
+    background: rgba(255, 255, 255, 0.2);
+    border-bottom: 2px solid rgba(255, 255, 255, 0.3);
+}
+
+header h1 {
+    font-size: 40px;
+    color: #fff;
+    text-shadow: 2px 2px 10px #000;
+}
+
+h2 {
+    margin-left: 20px;
+    margin-top: 30px;
+    color: #fff;
+    font-size: 28px;
+    border-left: 6px solid #fff;
+    padding-left: 10px;
+}
+
+
+.container, .container1, .container2 {
+    margin: 25px;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 15px;
+}
+
+.item, .item1, .item2 {
+    list-style: none;
+    padding: 18px;
+    background: rgba(255, 255, 255, 0.25);
+    border-radius: 12px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #fff;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
+
+.item:hover, .item1:hover, .item2:hover {
+    transform: translateY(-7px);
+    background: rgba(255,255,255,0.35);
+    cursor: pointer;
+}
+
+
+footer {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 15px;
+}
+
+footer ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+}
+
+footer ul li {
+    margin: 0 15px;
+}
+
+footer ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    transition: 0.3s;
+}
+
+footer ul li a:hover {
+    color: #6dd5fa;
+}
+
+hr {
+    border: none;
+    border-top: 2px solid rgba(255,255,255,0.4);
+    margin: 20px 0;
+}
+
+</style>
+</head>
+<body>
+    <header>
+        <h1><q>My Courses</q></h1>
+    </header>
+    <main>
+        <h2>Current Courses with Descriptions:</h2>
+        <div class="container">
+
+            <div class="item">
+                <li>HTML & CSS Basics - Learn the structure of web pages, formatting, and basic styling.</li></div>
+            <div class="item">
+                <li>JavaScript Fundamentals - Introduction to programming concepts and interactive web elements.</li></div>
+            <div class="item">
+                <li>Data Structures - Covers arrays, lists, stacks, queues, and algorithm basics.</li></div>
+            <div class="item">
+                <li>Database Management - SQL basics, relational databases, and CRUD</li></div>
+            <div class="item">
+            <li>Web Project - Hands-on project building a functional student portal.</li></div>
+            </div>
+            <h2>Completed Courses:</h2>
+            <div class="container1">
+            <div class="item1"><li>Python Basics</li></div>
+            <div class="item1"><li>Computer Networks</li></div>
+            <div class="item1"><li>Mathematics for Computing</li></div>
+            </div>
+            <h2>Upcoming Courses:</h2>
+            <div class="container2">
+            <div class="item2"><li>AI Fundamentals</li></div>
+            <div class="item2"><li>Advanced JavaScript</li></div>
+            <div class="item2"><li>Web Security</li></div>
+            <div class="item2"><li>HTML & CSS Basics: Tags, forms, tables, headings, lists</li></div>
+            <div class="item2"><li>JavaScript Fundamentals : Variables, loops, DOM basics</li></div>
+            </div>
+
+    </main>
+ <hr>
+    <footer>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="profile.html">Profile</a></li>
+                <li><a href="courses.html">Courses</a></li>
+                <li><a href="Feedback.html">Feedback</a></li>
+                <li><a href="Grade.html">Grades Table</a></li>
+                <li><a href="contact.html">Contact us</a></li>
+                <li><a href="mini_project/Mini Projects.html">Mini Projects</a></li> 
+            </ul>
+        </nav>
+    </footer> 
+</body>
+</html> make it in css more beutiful add flex and grid also
